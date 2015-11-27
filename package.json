@@ -1,0 +1,18 @@
+{
+  "name": "proxy-in-es2015",
+  "version": "1.0.0",
+  "main": "basic.js",
+  "scripts": {
+    "ppt": "node_modules/.bin/nodeppt start -c socket -w -d ./keynotes",
+    "test": "node --harmony_proxies"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "harmony-reflect": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodeppt": "^1.3.5"
+  }
+}
